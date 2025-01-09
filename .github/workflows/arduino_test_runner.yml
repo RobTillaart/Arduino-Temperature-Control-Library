@@ -14,5 +14,5 @@ jobs:
           ruby-version: 2.6
       - run: |
           gem install arduino_ci
-          ls -l /home/runner/arduino-cli
+          ls -l /home/runner
           arduino_ci.rb
