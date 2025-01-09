@@ -14,5 +14,6 @@ jobs:
           ruby-version: 2.6
       - run: |
           gem install arduino_ci
+          sudo apt-get install -y avr-libc
           ls -l /home/runner/work
           arduino_ci.rb
