@@ -33,7 +33,7 @@
     "paulstoffregen/OneWire": "^2.3.5"
   },
   "version": "4.0.4",
-    "license": "MIT",
+  "license": "MIT",
   "frameworks": "arduino",
   "platforms": "*",
   "headers": "DallasTemperature.h"
